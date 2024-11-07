@@ -494,6 +494,13 @@
 
 
 
+            var num = 0;
+            num =Convert.ToInt32(Console.ReadLine());
+            var ones = num % 10;
+            var tens = num /10% 10;
+            var hundreds = num /100% 10;
+            var thousands = num / 1000% 10;
+            Console.WriteLine(ones+tens+hundreds+thousands);
 
 
 
